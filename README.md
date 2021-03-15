@@ -87,6 +87,8 @@ Comando de ajuda sobre o Framework Mertasploit.Exibe todos os comandos disponív
 
 	msf6 > help
 
+![This is a alt text.](/images/help_screen.png "Execução do comando help.")
+
 Comando help + comando específico do Metasploit, ele exibirá todos os parâmetros que acompanham o comando
 Ex.
 				
