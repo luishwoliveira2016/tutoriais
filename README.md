@@ -60,7 +60,7 @@ O número que aparece após o msf, se refere a versão do Metasploit Framework i
 
 Irá apresentar uma tela incial no terminal, e algumas informações sobre a aplicação.
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](/images/splash_screen.png "Metasploit initial screen.")
 
 
 
