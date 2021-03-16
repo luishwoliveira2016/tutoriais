@@ -97,9 +97,6 @@ Ex.
 ![This is a alt text.](/images/help_search_screen.png "Execução do comando help+ comando.")
 
 
-
-
-
 ##### info
 
 Obtém informações sobre o exploit, ou módulo desejado.
@@ -111,6 +108,13 @@ para realizar a consulta, digite info + modulo_desejado
 No exemplo da imagem abaixo, foi realizada a busca das informações de um exploit.
 
 ![This is a alt text.](/images/info_screen.png "Comando info")
+
+É possivel buscar as informações apenas com a numeração do exploit ou módulo desejado.
+ 
+ No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificação.
+ 
+ ![This is a alt text.](/images/help_search_screen_2.png "Execução do comando info.")
+ 
 
 ##### use
 
