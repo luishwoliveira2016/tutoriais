@@ -93,6 +93,8 @@ Comando help + comando específico do Metasploit, ele exibirá todos os parâmet
 Ex.
 				
 	msf6 > help search
+	
+![This is a alt text.](/images/help_search_screen.png "Execução do comando help+ comando.")
 
 
 
