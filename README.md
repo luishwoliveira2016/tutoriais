@@ -104,10 +104,13 @@ Ex.
 
 Obtém informações sobre o exploit, ou módulo desejado.
 para realizar a consulta, digite info + modulo_desejado
-Ex.
+
 
 	msf6 > info 	
 
+No exemplo da imagem abaixo, foi realizada a busca das informações de um exploit.
+
+![This is a alt text.](/images/info_screen.png "Comando info")
 
 ##### use
 
