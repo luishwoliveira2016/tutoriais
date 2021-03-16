@@ -4,14 +4,14 @@
 O Metasploit é um projeto abragente da área de segurança da informação, que inclui informações e auxilia na busca de vulnerabilidades em sistemas através do uso de exploits, entre outros recursos. <br>
 É muito utilizada nos testes de penetração("Pentests") e utilizada por Hackers para invasão.
 
-O uso do material exposto e a sua aplicação é inteiramente responsabilidade do usuário,
+OBS: O uso do material exposto e a sua aplicação é inteiramente responsabilidade do usuário,
 não me responsabilizo pela forma de uso e intenções.
 
 
 
 A ferramenta foi desenvolvida em 2003 pelo programador HD Moore, e comprado pela Rapid 7
 
-Existem as versões Pro e Open Source(Metasploit Framework)
+Atualmente existem as versões Pro e Open Source(Metasploit Framework),a vero que será demosntrada será Open Source
 
 
 ### Como instalar:
@@ -26,7 +26,7 @@ https://github.com/rapid7/metasploit-framework
 
 Verifique a versão do seu sistema operacional para realizar o download corretamente. 
 
-Versões do Linux(debian/ubuntu):
+Para versões do Linux(debian/ubuntu):
 
 Antes de instalar propriamente o Metasploit-Framework,  execute o comando abaixo para atualizar :
 
