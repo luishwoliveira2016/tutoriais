@@ -113,7 +113,7 @@ No exemplo da imagem abaixo, foi realizada a busca das informações de um explo
  
  No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificação.
  
- ![This is a alt text.](/images/help_search_screen_2.png "Execução do comando info.")
+ ![This is a alt text.](/images/info_screen_2.png "Execução do comando info.")
  
 
 ##### use
