@@ -145,11 +145,12 @@ No exemplo da imagem abaixo, foi realizada a busca das informações de um explo
 
 ##### Exploit :
 
- Pedaço de código que explora por uma vulnerabilidade no sistema operacional ou na aplicação;
+ Exploradores,sequencia de comandos ou pedaços de código que explora por uma vulnerabilidade no sistema operacional ou na aplicação;
 
 ##### Payload :
 
- Onde carrega o xploit carga.O arquivo malicioso que será utilizadeo para realizar o ataque
+  Arquivo malicioso,gerlamente de formato executável que será utilizado para realizar o ataque.O arquivo que será instalado/executado na maquina
+  alvo do ataque.
 
 ##### Post  = 
 
