@@ -71,6 +71,10 @@ Irá apresentar uma tela incial no terminal, e algumas informações sobre a apl
 
 Comando utilizado para abrir o console do Metasploit
 
+##### banner
+
+Exibe o lolgoltkipop e a tela inicial, colma s ifformações de quantos módulos possui disponível para a versão dop aplicativo
+
 
 ##### search
 
