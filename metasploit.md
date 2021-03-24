@@ -115,31 +115,44 @@ No exemplo da imagem abaixo, foi realizada a busca das informações de um explo
 
 É possivel buscar as informações apenas com a numeração do exploit ou módulo desejado.
  
- No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificação.
+No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificação.
  
- ![This is a alt text.](/images/info_screen_2.png "Execução do comando info.")
+![This is a alt text.](/images/info_screen_2.png "Execução do comando info.")
  
 
 ##### use
 
+Comando utilizado selecionar e carregar exploits, auxiliares, payloads,etc;
 
+	msf6> use <nome_do_exploit_ou_auxilary_etc>
 
 
 ##### show options
+
+Apresenta na tela, os comandos específicos do módulo executado e sendo utilizado.
+Mostrará também os requisitos para  que o exploit, auxiliary ou o  módulo escolhido seja executado de maneira correta.
+
+	msf6> show options <nome_do_exploit/auxiliary/etc>
 
 
 
 ##### exploit
 
 
+Executa o exploit ou outro módulo selecionado.
+
 
 ##### run
 
-
+Da mesma forma que  o comando exploit, executa o exploit ou módulo selecionado
 
 
 ##### set
 
+Define algum recurso ou requisito que o módulo exige obrigatoriamente para o funcionamento.
+
+Utilizando o comando citado acima "show options", será exibido quais os requisitos necessários, 
+para que o módulo seja executado da forma correta.
 
 
 
@@ -156,7 +169,7 @@ No exemplo da imagem abaixo, foi realizada a busca das informações de um explo
   Arquivo malicioso,gerlamente de formato executável que será utilizado para realizar o ataque.O arquivo que será instalado/executado na maquina
   alvo do ataque.
 
-##### Post  = 
+##### Post  
 
 
 
