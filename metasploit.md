@@ -199,12 +199,12 @@ Agora será apresentado um exemplo prático utilizando alguns dos recursos apres
 Para este exemplo , utilizaremos um auxiliar, um scanner de portas TCP.
 
 
-1.  Para abrir o console do Metasploit,acesse o terminal, e digite o comando msfconsole
+1.  Para abrir o console do Metasploit,acesse o terminal, e digite o comando `msfconsole`:
 
 
-![This is a alt text.](/images/open.png "Abrir o console Metasploit.")(/images/open.png "Abrir o console Metasploit.")(/images/open.png "Abrir o console Metasploit.")
+![This is a alt text.](/images/open.png "Abrir o console Metasploit.")(/images/open.png "Abrir o console Metasploit.")
 
-2. Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando search + módulo desejado
+2. Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando `search` + módulo desejado
 neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 ![This is a alt text.](/images/open.png "Abrir o console Metasploit.")
@@ -213,11 +213,12 @@ neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 img
 
-4.  Verifique os requisitos que o módulo possui , executando o comando show options.
+4.  Verifique os requisitos que o módulo possui , executando o comando `show options`.
 
 img
 
-Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo. 
+Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo.
+
 RHOSTS se refere ao endereço de IP da máquina/servidor alvo do ataque/verficação.
 
 img
@@ -228,7 +229,7 @@ Para setar o RHOSTS utilize o comando
 img
 
 
-Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando run:
+Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando `run`:
 
 img
 
