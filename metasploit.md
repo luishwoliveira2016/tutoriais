@@ -228,16 +228,14 @@ Para setar o RHOSTS utilize o comando
 	msf6> set RHOSTS <substituir_pelo_ip_maquina_alvo>
 	
 	
-![This is a alt text.](/images/rhosts.png "Comando set.")
+![This is a alt text.](/images/set_rhosts.png "Comando set.")
 
 
-Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando `run`:
+Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando `run`.
 
-img
+O módulo que utilizamos consiste em um scanner de portas TCP, ele apresentará na tela todas as portas TCP abertas para o endereço de IP setado em RHOSTS.
 
-Para este scanner, ele apresentará na tela todas as portas TCP abertas para o endereço de IP setado em RHOSTS.
-
-img
+![This is a alt text.](/images/run_auxiliary.png "Modulo executado e finalizado")
 
 
 
