@@ -156,7 +156,7 @@ Se estiver com o módulo em uso, poderá apenas inserir `show options`, que apre
 
 ##### back
 
-Retornar ao console inicial do Metasploit Framework.
+Retornar ao console inicial do Metasploit Framework,caso esteja utilizando algum módulo.Serve para sair do módulo em uso.
 
 	msf6 > back
 
