@@ -9,9 +9,10 @@ não me responsabilizo pela forma de uso e intenções.
 
 
 
-A ferramenta foi desenvolvida em 2003 pelo programador HD Moore, e comprado pela Rapid 7
+A ferramenta foi desenvolvida em 2003 pelo programador HD Moore, e comprado pela empresa de segurança Rapid 7
 
-Atualmente existem as versões Pro e Open Source(Metasploit Framework),a vero que será demosntrada será Open Source
+Atualmente existem as versões Pro e Open Source(Metasploit Framework),neste tutorial vamos falar sobre a versão Open Source,
+o Metasploit Framework.
 
 
 ### Como instalar:
@@ -196,6 +197,3 @@ Scanners são um exemplo de auxiliar.
 ##### Evasion :
 
 Evasão de anti virus, firewall;
-
-##### Meterpreter:
-
