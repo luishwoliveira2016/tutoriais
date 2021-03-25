@@ -1,7 +1,7 @@
 # METASPLOIT FRAMEWORK
 
 
-O Metasploit é um projeto abragente da área de segurança da informação, que inclui informações e auxilia na busca de vulnerabilidades em sistemas através do uso de exploits, entre outros recursos. <br>
+O Metasploit é um projeto abrangente da área de segurança da informação, que inclui informações e auxilia na busca de vulnerabilidades em sistemas através do uso de exploits, entre outros recursos. <br>
 É muito utilizada nos testes de penetração("Pentests") e utilizada por Hackers para invasão.
 
 OBS: O uso do material exposto e a sua aplicação é inteiramente responsabilidade do usuário,
@@ -18,7 +18,7 @@ o Metasploit Framework.
 ### Como instalar:
 
 
-A versão Open Source está diponível no GitHub,você pode acessar o repositório através do link abaixo:
+A versão Open Source está disponível no GitHub,você pode acessar o repositório através do link abaixo:
  
 
 https://github.com/rapid7/metasploit-framework
@@ -59,7 +59,7 @@ Depois apertar 'Enter', vai abrir o terminal do Metasploit, com o seguinte forma
 
 O número que aparece após o msf, se refere a versão do Metasploit Framework instalada.
 
-Irá apresentar uma tela incial no terminal, e algumas informações sobre a aplicação.
+Irá apresentar uma tela inicial no terminal, e algumas informações sobre a aplicação.
 
 ![This is a alt text.](/images/splash_screen.png "Metasploit initial screen.")
 
@@ -69,18 +69,19 @@ Irá apresentar uma tela incial no terminal, e algumas informações sobre a apl
 
 ##### msfconsole
 
-Comando utilizado para abrir o console do Metasploit
+Comando utilizado para abrir o console do Metasploit;
 
 ##### banner
 
-Exibe o logolipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão dop aplicativo
+Exibe o logotipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão do aplicativo;
 
 
 ##### search
 
-Comando para buscar exploits,auxiliares, entre outros módulos diponíveis.
+Comando para buscar exploits,auxiliares, entre outros módulos disponíveis.
 search type : exploit =   busca exploits
-permite procurar por tipo especifico de módulo
+
+Permite procurar por tipo especifico de módulo
 
 
 	msf6 > search 
@@ -94,7 +95,7 @@ Comando de ajuda sobre o Framework Mertasploit.Exibe todos os comandos disponív
 
 ![This is a alt text.](/images/help_screen.png "Execução do comando help.")
 
-Comando help + comando específico do Metasploit, ele exibirá todos os parâmetros que acompanham o comando
+Comando help + comando específico do Metasploit, ele exibirá todos os parâmetros que acompanham o comando.
 Ex.
 				
 	msf6 > help search
@@ -105,7 +106,7 @@ Ex.
 ##### info
 
 Obtém informações sobre o exploit, ou módulo desejado.
-para realizar a consulta, digite info + modulo_desejado
+Para realizar a consulta, digite `info` + modulo_desejado.
 
 
 	msf6 > info 	
@@ -114,7 +115,7 @@ No exemplo da imagem abaixo, foi realizada a busca das informações de um explo
 
 ![This is a alt text.](/images/info_screen.png "Comando info")
 
-É possivel buscar as informações apenas com a numeração do exploit ou módulo desejado.
+É possível buscar as informações apenas com a numeração do exploit ou módulo desejado.
  
 No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificação.
  
@@ -130,25 +131,33 @@ Comando utilizado para selecionar e carregar exploits, auxiliares, payloads,etc;
 
 ##### show options
 
-Apresenta na tela, os requisitos do módulo executado e sendo utilizado.
-Mostrará também os requisitos para  que o exploit, auxiliary ou o  módulo escolhido seja executado de maneira correta.
+Mostrará os requisitos ou opções do módulo sendo utilizado para que o exploit, auxiliary ou o módulo escolhido seja executado de maneira correta.
 
 	msf6> show options <nome_do_exploit/auxiliary/etc>
+	
+Se estiver com o módulo em uso, poderá apenas inserir `show options`, que apresentará as opções do módulo em uso.
+É possível setar estas opções, com o comando `set`, que será apresentado a seguir.
 
 ##### back
 
 Retornar ao console inicial do Metasploit Framework
 
+	msf6> back
 
-##### exploit
+
+##### exploit (comando)
 
 
 Executa o exploit ou outro módulo selecionado.
+
+	msf6> exploit
 
 
 ##### run
 
 Da mesma forma que o comando exploit, executa o exploit ou módulo selecionado
+
+	msf6> run
 
 
 ##### set
@@ -157,6 +166,8 @@ Utilizado para definir ou setar algum recurso ou requisito que o módulo exige o
 
 Utilizando o comando citado acima "show options", será exibido quais os requisitos necessários, 
 para que o módulo seja executado da forma correta.
+
+	msf6> set <substituir_opção_que_deseja_alterar> <valor>
 
 
 ## O que significa
@@ -178,18 +189,18 @@ para que o módulo seja executado da forma correta.
 
   Arquivo malicioso, geralmente de formato executável que contém a "carga",que será utilizado para realizar o ataque.
   
-  O arquivo que será instalado/executado na máquina alvo do ataque,ocasiando algum problema ou gerando alguma vulnerabilidade(facilitação).
+  O arquivo que será instalado/executado na máquina alvo do ataque,ocasionando algum problema ou gerando alguma vulnerabilidade(facilitação).
   
-  Ex. envio de email com um arquivo.pdf, infectado com um  programa , que será instalado/executado na máquina alvo quando o arquivo é aberto.
+  Ex. envio de e-mail com um arquivo.pdf, infectado com um  programa , que será instalado/executado na máquina alvo quando o arquivo é aberto.
 
 ##### Auxiliary
 
-Auxiliary(auxiliares), como o nome já diz, são um tipo de módulo , de ferramentas utilitárias, que auxiliam num possível ataque ou alguma necessidade de uso.
+Auxiliary(auxiliares), como o nome já diz, são um tipo de módulo, de ferramentas utilitárias, que auxiliam num possível ataque ou alguma necessidade de uso.
 Scanners são um exemplo de auxiliar.
 
 ##### Evasion :
 
-Módulo espcífico para realizar evasão de anti virus, firewall;
+Módulo específico para realizar evasão de anti vírus, firewall;
 
 
 ## Exemplo prático
@@ -231,11 +242,10 @@ Para setar o RHOSTS utilize o comando. Para o exemplo, utilizei o IP Localhost
 ![This is a alt text.](/images/set_rhosts.png "Comando set.")
 
 
-Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando `run`.
+Após todas as configurações concluídas, basta executar o scanner, utilizando o comando `run`.
 
 O módulo que utilizamos consiste em um scanner de portas TCP, ele apresentará na tela todas as portas TCP abertas para o endereço de IP setado em RHOSTS.
 
 ![This is a alt text.](/images/run_auxiliary.png "Modulo executado e finalizado")
-
 
 
