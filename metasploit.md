@@ -264,4 +264,13 @@ O módulo que utilizamos consiste em um scanner de portas TCP, ele apresentará 
 
 ![This is a alt text.](/images/run_auxiliary.png "Modulo executado e finalizado")
 
+Finalizado o uso do  scanner, se deseja utilizar outro módulo do Metasploit, utilize o comando `back`, para voltar ao console principal:
+
+![This is a alt text.](/images/back.png "Modulo executado e finalizado")
+
+Se deseja encerrar o programa, basta digitar o comando `exit`:
+
+![This is a alt text.](/images/exit.png "Modulo executado e finalizado")
+
+
 
