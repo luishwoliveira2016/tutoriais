@@ -43,7 +43,7 @@ Para instalar, execute o comando abaixo:
 	$ sudo apt install curl
 	
 
-
+Para mais informações sobre a instalação(requisitos e dependências), acesse https://github.com/rapid7/metasploit-framework
 
 Após finalizado o processo, você poderá abrir o console do Metasploit no terminal, utilize o comando:
 
@@ -122,7 +122,7 @@ No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificaç
 
 ##### use
 
-Comando utilizado selecionar e carregar exploits, auxiliares, payloads,etc;
+Comando utilizado para selecionar e carregar exploits, auxiliares, payloads,etc;
 
 	msf6> use <nome_do_exploit_ou_auxilary_etc>
 
@@ -134,6 +134,9 @@ Mostrará também os requisitos para  que o exploit, auxiliary ou o  módulo esc
 
 	msf6> show options <nome_do_exploit/auxiliary/etc>
 
+##### back
+
+Retornar ao console inicial do Metasploit Framework
 
 
 ##### exploit
@@ -163,9 +166,11 @@ para que o módulo seja executado da forma correta.
 ##### Exploit
 
  Exploits(Exploradores)são sequência de comandos ou fragmentos de código que explora por uma vulnerabilidade no sistema operacional  ou na aplicação em questão;
- Estes Exploits são buscados e apresnetado no Metasploit Framework.
+ Estes Exploits são buscados e apresentados no Metasploit Framework, através do comando "search exploit", por exemplo.
  
- Na internet você pode encontrar uma database de exploits, como neste site
+ Além do framework, você pode localizar exploits ou outros módulos desejados na internet,como no site abaixo,
+ você encontra uma database de exploits e outros módulos.
+ 
  
  https://www.exploit-db.com/
  
@@ -184,7 +189,9 @@ para que o módulo seja executado da forma correta.
 
 ##### Auxiliary
 
-	Scanners, sniffer na rede,utilitários;
+Auxiliary(auxiliares), como o nome já diz, são um tipo de módulo , de ferramentas utilitárias, que auxiliam num possível ataque ou alguma necessidade de uso.
+Scanners são um exemplo de auxiliar.
+
 
 ##### Evasion :
 
@@ -192,4 +199,3 @@ Evasão de anti virus, firewall;
 
 ##### Meterpreter:
 
-RHOSTS
