@@ -159,7 +159,7 @@ para que o módulo seja executado da forma correta.
 
 
 
-## O que é
+## O que significa
 
 
 ##### Exploit
@@ -182,19 +182,15 @@ para que o módulo seja executado da forma correta.
   
   Ex. envio de email com um arquivo.pdf, infectado com um  programa , que será instalado/executado na máquina alvo quando o arquivo é aberto.
 
-##### Post  
-
-
-
 ##### Auxiliary
 
 Auxiliary(auxiliares), como o nome já diz, são um tipo de módulo , de ferramentas utilitárias, que auxiliam num possível ataque ou alguma necessidade de uso.
 Scanners são um exemplo de auxiliar.
 
-
 ##### Evasion :
 
-Evasão de anti virus, firewall;
+Módulo espcífico para realizar evasão de anti virus, firewall;
+
 
 ## Exemplo prático
 
