@@ -223,7 +223,7 @@ Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo.
 
 RHOSTS é o campo do endereço de IP da máquina/servidor alvo do ataque/verficação.
 
-Para setar o RHOSTS utilize o comando
+Para setar o RHOSTS utilize o comando. Para o exemplo, utilizei o IP Localhost
 		
 	msf6> set RHOSTS <substituir_pelo_ip_maquina_alvo>
 	
