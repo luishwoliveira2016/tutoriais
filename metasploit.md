@@ -144,7 +144,7 @@ Executa o exploit ou outro módulo selecionado.
 
 ##### run
 
-Da mesma forma que  o comando exploit, executa o exploit ou módulo selecionado
+Da mesma forma que o comando exploit, executa o exploit ou módulo selecionado
 
 
 ##### set
@@ -160,20 +160,29 @@ para que o módulo seja executado da forma correta.
 -------------------------------------------------------------------------------------------------
 
 
-##### Exploit :
+##### Exploit
 
- Exploradores,sequencia de comandos ou pedaços de código que explora por uma vulnerabilidade no sistema operacional ou na aplicação;
+ Exploits(Exploradores)são sequência de comandos ou fragmentos de código que explora por uma vulnerabilidade no sistema operacional  ou na aplicação em questão;
+ Estes Exploits são buscados e apresnetado no Metasploit Framework.
+ 
+ Na internet você pode encontrar uma database de exploits, como neste site
+ 
+ https://www.exploit-db.com/
+ 
 
-##### Payload :
+##### Payload
 
-  Arquivo malicioso,gerlamente de formato executável que será utilizado para realizar o ataque.O arquivo que será instalado/executado na maquina
-  alvo do ataque.
+  Arquivo malicioso, geralmente de formato executável que contém a "carga",que será utilizado para realizar o ataque.
+  
+  O arquivo que será instalado/executado na máquina alvo do ataque,ocasiando algum problema ou gerando alguma vulnerabilidade(facilitação).
+  
+  Ex. envio de email com um arquivo.pdf, infectado com um  programa , que será instalado/executado na máquina alvo quando o arquivo é aberto.
 
 ##### Post  
 
 
 
-##### Auxiliary :
+##### Auxiliary
 
 	Scanners, sniffer na rede,utilitários;
 
