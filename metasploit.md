@@ -209,7 +209,7 @@ neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 ![This is a alt text.](/images/search.png "Abrir o console Metasploit.")
 
-3.  Selecione o auxiliar desejado, utilizando o comando 'use' + o nome do auxiliar ou o seu código
+3.  Selecione o auxiliar desejado, utilizando o comando `use` + o nome do auxiliar ou o seu código
 
 ![This is a alt text.](/images/use.png "Comando use + nome do módulo.")
 
@@ -221,14 +221,14 @@ neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo.
 
-RHOSTS se refere ao endereço de IP da máquina/servidor alvo do ataque/verficação.
-
-img
+RHOSTS é o campo do endereço de IP da máquina/servidor alvo do ataque/verficação.
 
 Para setar o RHOSTS utilize o comando
 		
 	msf6> set RHOSTS <substituir_pelo_ip_maquina_alvo>
-img
+	
+	
+![This is a alt text.](/images/rhosts.png "Comando set.")
 
 
 Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando `run`:
