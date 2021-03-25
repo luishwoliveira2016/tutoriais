@@ -199,21 +199,21 @@ Agora será apresentado um exemplo prático utilizando alguns dos recursos apres
 Para este exemplo , utilizaremos um auxiliar, um scanner de portas TCP.
 
 
-:* -  Para abrir o console do Metasploit,acesse o terminal, e digite o comando msfconsole
+1.  Para abrir o console do Metasploit,acesse o terminal, e digite o comando msfconsole
 
+
+(/images/open.png "Abrir o console Metasploit.")
+
+2. Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando search + módulo desejado
+neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 ![This is a alt text.](/images/open.png "Abrir o console Metasploit.")
 
-2 - Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando search + módulo desejado
-neste caso será o auxiliar auxiliary/scanner/portscan/tcp
+3.  Selecione o auxiliar desejado, utilizando o comando use + o nome do auxiliar ou o seu código
 
 img
 
-3 - Selecione o auxiliar desejado, utilizando o comando use + o nome do auxiliar ou o seu código
-
-img
-
-4 - Verifique os requisitos que o módulo possui , executando o comando show options.
+4.  Verifique os requisitos que o módulo possui , executando o comando show options.
 
 img
 
