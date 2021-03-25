@@ -202,7 +202,7 @@ Para este exemplo , utilizaremos um auxiliar, um scanner de portas TCP.
 1.  Para abrir o console do Metasploit,acesse o terminal, e digite o comando `msfconsole`:
 
 
-![This is a alt text.](/images/open.png "Abrir o console Metasploit.")
+![This is a alt text.](/images/msfconsole.png "Abrir o console Metasploit.")
 
 2. Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando `search` + módulo desejado
 neste caso será o auxiliar auxiliary/scanner/portscan/tcp
@@ -211,11 +211,13 @@ neste caso será o auxiliar auxiliary/scanner/portscan/tcp
 
 3.  Selecione o auxiliar desejado, utilizando o comando 'use' + o nome do auxiliar ou o seu código
 
-img
+![This is a alt text.](/images/use.png "Comando use + nome do módulo.")
+
+![This is a alt text.](/images/use_id.png "Comando use + número módulo.")
 
 4.  Verifique os requisitos que o módulo possui , executando o comando `show options`.
 
-img
+![This is a alt text.](/images/show_options.png "Comando show options.")
 
 Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo.
 
