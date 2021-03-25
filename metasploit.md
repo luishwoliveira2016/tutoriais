@@ -197,3 +197,49 @@ Scanners são um exemplo de auxiliar.
 ##### Evasion :
 
 Evasão de anti virus, firewall;
+
+### Exemplo prático
+
+Agora será apresentado um exemplo prático utilizando alguns dos recursos apresentados anteriormente.
+
+Para este exemplo , utilizaremos um auxiliar, um scanner de portas TCP.
+
+
+1 -  Acesse o terminal do Metasploit, utilizando o comando msfconsole
+
+img
+
+2 - Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando search + módulo desejado
+neste caso será o auxiliar auxiliary/scanner/portscan/tcp
+
+img
+
+3 - Selecione o auxiliar desejado, utilizando o comando use + o nome do auxiliar ou o seu código
+
+img
+
+4 - Verifique os requisitos que o módulo possui , executando o comando show options.
+
+img
+
+Lembrando :Se o campo RHOSTS estiver em branco será necessário setá-lo. 
+RHOSTS se refere ao endereço de IP da máquina/servidor alvo do ataque/verficação.
+
+img
+
+Para setar o RHOSTS utilize o comando
+		
+	msf6> set RHOSTS <substituir_pelo_ip_maquina_alvo>
+img
+
+
+Após todas as configurações concluídas, basta execeutar o scanner, utilizando o comando run:
+
+img
+
+Para este scanner, ele apresentará na tela todas as portas TCP abertas para o endereço de IP setado em RHOSTS.
+
+img
+
+
+
