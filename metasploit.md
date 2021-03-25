@@ -73,12 +73,13 @@ Comando utilizado para abrir o console do Metasploit
 
 ##### banner
 
-Exibe o lolgoltkipop e a tela inicial, colma s ifformações de quantos módulos possui disponível para a versão dop aplicativo
+Exibe o logolipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão dop aplicativo
 
 
 ##### search
 
-search type : exploit =   busca xploits
+Comando para buscar exploits,auxiliares, entre outros módulos diponíveis.
+search type : exploit =   busca exploits
 permite procurar por tipo especifico de módulo
 
 
@@ -129,7 +130,7 @@ Comando utilizado para selecionar e carregar exploits, auxiliares, payloads,etc;
 
 ##### show options
 
-Apresenta na tela, os comandos específicos do módulo executado e sendo utilizado.
+Apresenta na tela, os requisitos do módulo executado e sendo utilizado.
 Mostrará também os requisitos para  que o exploit, auxiliary ou o  módulo escolhido seja executado de maneira correta.
 
 	msf6> show options <nome_do_exploit/auxiliary/etc>
@@ -152,11 +153,10 @@ Da mesma forma que o comando exploit, executa o exploit ou módulo selecionado
 
 ##### set
 
-Define algum recurso ou requisito que o módulo exige obrigatoriamente para o funcionamento.
+Utilizado para definir ou setar algum recurso ou requisito que o módulo exige obrigatoriamente ou opcionalmente, para o funcionamento.
 
 Utilizando o comando citado acima "show options", será exibido quais os requisitos necessários, 
 para que o módulo seja executado da forma correta.
-
 
 
 ## O que significa
