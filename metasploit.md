@@ -65,7 +65,7 @@ Irá apresentar uma tela incial no terminal, e algumas informações sobre a apl
 
 
 
-### Principais comandos do Metasploit
+## Principais comandos do Metasploit
 
 -------------------------------------------------------------------------------------------------
 ##### msfconsole
@@ -160,7 +160,7 @@ para que o módulo seja executado da forma correta.
 
 
 
-### O que é
+## O que é
 -------------------------------------------------------------------------------------------------
 
 
@@ -198,7 +198,8 @@ Scanners são um exemplo de auxiliar.
 
 Evasão de anti virus, firewall;
 
-### Exemplo prático
+## Exemplo prático
+----------------------------------------------------------------------------------------------------------
 
 Agora será apresentado um exemplo prático utilizando alguns dos recursos apresentados anteriormente.
 
