@@ -1,12 +1,11 @@
 # METASPLOIT FRAMEWORK
 
 
-O Metasploit é um projeto abrangente da área de segurança da informação, que inclui informações e auxilia na busca de vulnerabilidades em sistemas através do uso de exploits, entre outros recursos. <br>
-É muito utilizada nos testes de penetração("Pentests") e utilizada por Hackers para invasão.
+O Metasploit é um projeto abrangente da área de segurança da informação, que inclui informações,módulos e ferramentas que auxiliam na busca de vulnerabilidades em sistemas através do uso de exploits, entre outros recursos. <br>
+É muito utilizada em testes de penetração("Pentests") e utilizada por Hackers para invasão.
 
 OBS: O uso do material exposto e a sua aplicação é inteiramente responsabilidade do usuário,
 não me responsabilizo pela forma de uso e intenções.
-
 
 
 A ferramenta foi desenvolvida em 2003 pelo programador HD Moore, e comprado pela empresa de segurança Rapid 7
@@ -69,22 +68,39 @@ Irá apresentar uma tela inicial no terminal, e algumas informações sobre a ap
 
 ##### msfconsole
 
-Comando utilizado para abrir o console do Metasploit;
+Comando utilizado para abrir o console do Metasploit.
+
+	$msfconsole
 
 ##### banner
 
-Exibe o logotipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão do aplicativo;
+Exibe o logotipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão do aplicativo.
+
+	msf6> banner
 
 
 ##### search
 
-Comando para buscar exploits,auxiliares, entre outros módulos disponíveis.
-search type : exploit =   busca exploits
-
-Permite procurar por tipo especifico de módulo
-
+Comando base para a busca de exploits,auxiliares,payloads, entre outros módulos disponíveis.
 
 	msf6 > search 
+
+
+É possível filtrar a sua busca, pelo tipo de módulo, tipo de sistema,entre outros.
+
+Busca especificando o tipo:
+
+	msf6> search type : exploit 
+
+Busca especificando o sistema	:
+
+	msf6> search windows
+
+Abreviando a busca por tipo
+
+	msf6> search exploit
+
+
 
 ##### help
 
