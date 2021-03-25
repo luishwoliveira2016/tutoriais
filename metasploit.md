@@ -273,4 +273,9 @@ Se deseja encerrar o programa, basta digitar o comando `exit`:
 ![This is a alt text.](/images/exit.png "Modulo executado e finalizado")
 
 
+Desenvolvido por Luis Henrique
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.
+
+
 
