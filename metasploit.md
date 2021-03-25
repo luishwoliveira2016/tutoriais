@@ -76,7 +76,7 @@ Comando utilizado para abrir o console do Metasploit.
 
 Exibe o logotipo e a tela inicial, com as informações de quantos módulos possui disponível para a versão do aplicativo.
 
-	msf6> banner
+	msf6 > banner
 
 
 ##### search
@@ -90,15 +90,15 @@ Comando base para a busca de exploits,auxiliares,payloads, entre outros módulos
 
 Busca especificando o tipo:
 
-	msf6> search type : exploit 
+	msf6 > search type : exploit 
 
 Busca especificando o sistema	:
 
-	msf6> search windows
+	msf6 > search windows
 
 Abreviando a busca por tipo
 
-	msf6> search exploit
+	msf6 > search exploit
 
 
 
@@ -142,23 +142,23 @@ No exemplo abaixo foi buscado um PAYLOAD através do seu número de identificaç
 
 Comando utilizado para selecionar e carregar exploits, auxiliares, payloads,etc;
 
-	msf6> use <nome_do_exploit_ou_auxilary_etc>
+	msf6 > use <nome_do_exploit_ou_auxilary_etc>
 
 
 ##### show options
 
 Mostrará os requisitos ou opções do módulo sendo utilizado para que o exploit, auxiliary ou o módulo escolhido seja executado de maneira correta.
 
-	msf6> show options <nome_do_exploit/auxiliary/etc>
+	msf6 > show options <nome_do_exploit/auxiliary/etc>
 	
 Se estiver com o módulo em uso, poderá apenas inserir `show options`, que apresentará as opções do módulo em uso.
 É possível setar estas opções, com o comando `set`, que será apresentado a seguir.
 
 ##### back
 
-Retornar ao console inicial do Metasploit Framework
+Retornar ao console inicial do Metasploit Framework.
 
-	msf6> back
+	msf6 > back
 
 
 ##### exploit (comando)
@@ -166,14 +166,14 @@ Retornar ao console inicial do Metasploit Framework
 
 Executa o exploit ou outro módulo selecionado.
 
-	msf6> exploit
+	msf6 > exploit
 
 
 ##### run
 
-Da mesma forma que o comando exploit, executa o exploit ou módulo selecionado
+Da mesma forma que o comando exploit, executa o exploit ou módulo selecionado.
 
-	msf6> run
+	msf6 > run
 
 
 ##### set
@@ -183,7 +183,7 @@ Utilizado para definir ou setar algum recurso ou requisito que o módulo exige o
 Utilizando o comando citado acima "show options", será exibido quais os requisitos necessários, 
 para que o módulo seja executado da forma correta.
 
-	msf6> set <substituir_opção_que_deseja_alterar> <valor>
+	msf6 > set <substituir_opção_que_deseja_alterar> <valor>
 
 
 ## O que significa
@@ -232,11 +232,11 @@ Para este exemplo , utilizaremos um auxiliar, um scanner de portas TCP.
 ![This is a alt text.](/images/msfconsole.png "Abrir o console Metasploit.")
 
 2. Após o programa iniciado , busque pelo exploit ou módulo desejado , utilizando o comando `search` + módulo desejado
-neste caso será o auxiliar auxiliary/scanner/portscan/tcp
+neste caso será o auxiliar auxiliary/scanner/portscan/tcp :
 
 ![This is a alt text.](/images/search.png "Abrir o console Metasploit.")
 
-3.  Selecione o auxiliar desejado, utilizando o comando `use` + o nome do auxiliar ou o seu código
+3.  Selecione o auxiliar desejado, utilizando o comando `use` + o nome do auxiliar ou o seu código:
 
 ![This is a alt text.](/images/use.png "Comando use + nome do módulo.")
 
@@ -250,9 +250,9 @@ Lembrando : Se o campo RHOSTS estiver em branco será necessário setá-lo.
 
 RHOSTS é o campo do endereço de IP da máquina/servidor alvo do ataque/verficação.
 
-Para setar o RHOSTS utilize o comando. Para o exemplo, utilizei o IP Localhost
+Para setar o RHOSTS utilize o comando. Para o exemplo, utilizei o IP Localhost.
 		
-	msf6> set RHOSTS <substituir_pelo_ip_maquina_alvo>
+	msf6 > set RHOSTS <substituir_pelo_ip_maquina_alvo>
 	
 	
 ![This is a alt text.](/images/set_rhosts.png "Comando set.")
